@@ -1,0 +1,23 @@
+ public void act() 
+    {
+        move(4);
+        
+        if (Greenfoot.isKeyDown("left"))
+        {
+            turn(-3);
+        }
+        if (Greenfoot.isKeyDown("right")) 
+        {
+                turn(3);
+        }
+        
+        Actor bear;
+        bear = getOneObjectAtOffset(0, 0, Bear.class);
+        if (bear != null)
+        {
+                World world;
+                world = getWorld();
+                world.removeObject(bear);
+        }
+        
+    } 
