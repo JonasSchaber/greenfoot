@@ -1,0 +1,8 @@
+Actor YourObject;
+        bear = getOneObjectAtOffset(0, 0, YourObject.class);
+        if (YourObject != null)
+        {
+                World world;
+                world = getWorld();
+                world.removeObject(YourObject);
+        }
