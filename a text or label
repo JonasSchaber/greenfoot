@@ -1,0 +1,21 @@
+// new Label class
+
+import greenfoot.Color; //on top, imports colors
+
+
+
+public Label(String text)
+    {
+        GreenfootImage img = new GreenfootImage (text.length()*20, 30);
+        img.setColor(Color.WHITE);
+        img.setFont(img.getFont().deriveFont(20f)); //font size
+        img.drawString (text, 2, 20);
+        setImage (img);
+    }
+   
+   public void setText(String text)
+   {
+       GreenfootImage img = getImage();
+       img.clear();
+       img.drawString(text, 2, 20);
+   }
