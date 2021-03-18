@@ -1,3 +1,5 @@
+//in class of the object
+
 GreenfootImage nameImage = getImage();
         int myNewHeight = (int) nameImage.getHeight()/2;
         int myNewWidth = (int) nameImage.getWidth()/2;
