@@ -1,4 +1,4 @@
-//in Player method
+//in Player class
 Actor YourObject;
         bear = getOneObjectAtOffset(0, 0, YourObject.class);
         if (YourObject != null)
