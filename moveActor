@@ -1,4 +1,6 @@
- public void act() 
+//in the actor class
+
+public void act() 
     {
         move(4);
         
