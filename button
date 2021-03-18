@@ -1,0 +1,8 @@
+//in new Button class
+
+ public void act() 
+    {
+        if (Greenfoot.mouseClicked(this))
+            Greenfoot.setWorld(new Level1());  //jump to level 1
+                        
+    }  
