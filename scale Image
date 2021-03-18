@@ -1,0 +1,4 @@
+GreenfootImage nameImage = getImage();
+        int myNewHeight = (int) nameImage.getHeight()/2;
+        int myNewWidth = (int) nameImage.getWidth()/2;
+        nameImage.scale(myNewWidth, myNewHeight);
